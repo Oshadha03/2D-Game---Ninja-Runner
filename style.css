@@ -1,0 +1,90 @@
+.b{
+   width:100%;
+   height: 100vh;
+   background-image: url("Bg.jpg");
+   background-size: cover;
+   background-repeat: repeat-x;
+   overflow-x: hidden;
+   position: absolute;
+
+
+}
+.body{
+    margin:0px;
+}
+.f{
+    margin-top: 620px;
+    height:70px;
+    position: absolute;
+    margin-left: 1000px;
+
+}
+.boy{
+    position: absolute;
+    height: 180px;
+    margin-top: 520px;
+}
+.score{
+    font-size: 100px;
+    font-weight: bold;
+    margin-top: 40px;
+    margin-left: 100px;
+    position: absolute;
+    color: aquamarine ;
+
+
+}
+.end{
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    background-image: url("SBg.jpg");
+    font-size: 100px;
+    font-weight: bold;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    visibility: hidden;
+    background-size: cover;
+}
+
+.start {
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    background-image: url("SBg.jpg");
+    font-size: 100px;
+    font-weight: bold;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    visibility: hidden;
+    background-size: cover;
+}
+
+
+.btn {
+    width: 200px;
+    padding: 15px 0;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid rgb(240, 233, 233);
+    background: transparent;
+    color: #fff;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+}
+
+.btn:hover {
+    border: none;
+    background-color: rgb(1, 44, 51);
+    color: rgb(121, 116, 116);
+    border: 2px solid rgb(240, 233, 233);
+}
